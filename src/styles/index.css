@@ -71,7 +71,7 @@ a {
 
 /* Hero Section */
 .hero {
-  height: 60vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   display: flex;
