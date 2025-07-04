@@ -1,7 +1,7 @@
 export const locationsData = [
   {
     id: 1,
-    name: "Loewesaal",
+    name: "Loewe Saal",
     features: ["modern", "wedding", "historisch"],
     description:
       "Der Loewesaal ist mit seinem eleganten Design und großem Raum ideal für unvergessliche Hochzeiten.",
@@ -17,22 +17,30 @@ export const locationsData = [
   },
   {
     id: 2,
-    name: "Saal MaJolie",
+    name: "Saal Ma Jolie",
     features: ["wedding", "mitte"],
     description:
       "Saal MaJolie ist mit romantischer Atmosphäre und stilvollen Details perfekt für Ihre Traumhochzeit.",
-    images: ["/images/locations/saal-majolie/1.jpeg"],
+    images: [
+      "/images/locations/saal-majolie/1.jpg",
+      "/images/locations/saal-majolie/2.jpg",
+      "/images/locations/saal-majolie/3.jpg",
+    ],
     capacity: 250,
     location: "Berlin",
     url: "https://www.loewesaal.de",
   },
   {
     id: 3,
-    name: "Saal Mavie",
+    name: "Saal Ma Vie",
     features: ["wedding", "mitte"],
     description:
       "Saal Mavie bringt mit modernem Design und professionellem Service Glanz in Ihre Feier.",
-    images: ["/images/locations/saal-mavie/1.jpeg"],
+    images: [
+      "/images/locations/saal-mavie/1.jpg",
+      "/images/locations/saal-mavie/2.jpg",
+      "/images/locations/saal-mavie/3.jpg",
+    ],
     capacity: 150,
     location: "Berlin",
     url: "https://www.loewesaal.de",
@@ -125,8 +133,8 @@ export const locationsData = [
       "Antea Catering sorgt mit köstlichen Menüs und perfektem Service für besondere kulinarische Momente.",
     images: [
       "/images/locations/antea-catering/1.jpg",
-      "/images/locations/antea-catering/2.jpg",
-      "/images/locations/antea-catering/3.jpg",
+      "/images/locations/antea-catering/2.JPG",
+      "/images/locations/antea-catering/3.JPG",
     ],
     capacity: 370,
     location: "Berlin",
